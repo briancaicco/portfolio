@@ -1,0 +1,885 @@
+// Variables
+///////////////////////////////////////////////////////////
+
+// $blue:    				#217ff2;
+// $cyan:   				#00dfff; 
+
+
+// $light-blue-grey:    	#eef4f5;
+// $middle-blue-grey:		#c6d1df;
+// $dark-blue-grey:			#8b9198;
+// $dark-blue:				#062d4c;
+// $black-blue:				#021021;
+
+// $brand-primary:        	$blue;
+// $brand-secondary:		$dark-blue;
+// $brand-accent:			$cyan;
+
+
+// $headings-font-weight:  300;
+
+
+///////////////////////////////////////////////////////////
+// Global
+///////////////////////////////////////////////////////////
+body{
+	font-weight: $font-light;
+}
+
+section{
+	padding: .9rem 1.8rem;
+}
+
+
+///////////////////////////////////////////////////////////
+// Animations
+///////////////////////////////////////////////////////////
+
+.fast{
+	animation-duration: .35s;
+	transform: .2s;
+}
+.delay{
+	animation-delay: .35s;
+}
+
+@keyframes fadeInLeft {
+	from {
+		opacity: 0;
+		transform: translate3d(-5px, 0, 0);
+		animation-timing-function: ease-out;
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+///////////////////////////////////////////////////////////
+// Shadow Elevations
+///////////////////////////////////////////////////////////
+.el-1{ box-shadow: $el-1; }	// Switch,
+.el-2{ box-shadow: $el-2; }	// Raised Button, Card, Search Box
+.el-3{ box-shadow: $el-3; } // Refresh Indicator
+.el-4{ box-shadow: $el-4; } // App Bar
+.el-5{ box-shadow: $el-5; } // Floating Action Button, Snack bar
+.el-6{ box-shadow: $el-6; } // Menu, Bottom Navigation Bar
+.el-7{ box-shadow: $el-7; } // Sub Menus
+.el-8{ box-shadow: $el-8; } // Nav Drawer, Modal Boxes
+.el-9{ box-shadow: $el-9; } // Dialoge Boxes
+
+///////////////////////////////////////////////////////////
+// Components
+///////////////////////////////////////////////////////////
+
+.sq-solid, .sq-solid-1, .sq-solid-2{
+	background-color: $middle-blue-grey;
+	position: relative;
+}
+
+.sq-border, .sq-border-1, .sq-border-2{
+	border: 1px solid $brand-primary;
+}
+
+///////////////////////////////////////////////////////////
+// Colors
+///////////////////////////////////////////////////////////
+.bg-white{
+	background-color: $white;
+}
+
+.primary{
+	color: $brand-primary;
+}
+
+///////////////////////////////////////////////////////////
+// Typography
+///////////////////////////////////////////////////////////
+
+p {
+	font-family: $font-family-sans-serif-alt;
+	font-weight: $font-light;
+	b{
+		font-weight: $font-bold;
+	}
+}
+
+b{
+	font-weight: $font-bold;
+}
+
+small, .small{
+	font-weight: $font-light;
+}
+
+.up{
+	text-transform: uppercase;
+}
+
+.font-weight-thin{
+	font-weight: $font-light;
+}
+
+
+
+.accent {
+
+	&:after{
+		height: 2px;
+		width: 30px;
+		margin-top: 10px;
+		display: block;
+		background-color: $brand-primary;
+		content: '';
+	}
+
+}
+
+
+
+///////////////////////////////////////////////////////////
+// Navigation
+///////////////////////////////////////////////////////////
+.navbar{
+	transition: all .15s;
+}
+.navbar.fixed-top{
+	z-index: 5000 !important;
+}
+
+.navbar.scrolled{
+	padding: 0 1.8rem;
+	background: #fff;
+	box-shadow: $el-4;
+
+}
+
+.nav-toggle.collapsed{
+	top: 0px !important;
+}
+
+.nav-closer{
+	top: 20px;
+	position: absolute;
+	right: 295px;
+	padding: 20px;
+	background: #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	box-shadow: $el-5;
+	img{
+		margin-top: -15px;
+		margin-left: -5px;
+	}
+}
+
+.navHeading{
+	font-weight: 300;
+}
+
+#collapseNav{
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	min-height: 100% !important;
+	width: 320px;
+	z-index: 5001;
+	overflow: visible;
+	box-shadow: $el-8;
+	animation-duration: .2s;
+}
+
+#collapseNav.collapsing { 
+	background-color: #fff;
+	overflow: visible;
+	box-shadow: $el-8;
+}
+
+#collapseNav.collapse.show{
+	background-color: #fff;
+	overflow: visible;
+	box-shadow: $el-8;
+	animation-duration: .2s;
+}
+
+.nav-link{
+	color: $brand-primary;
+	font-weight: 300;
+	&:hover{
+		color: $dark-blue;
+	}
+}
+
+#nav-toggle{
+	svg{
+		width: 20px;
+		height: 21px;
+	}
+}
+
+#navbar-brand{
+	svg{
+		width: 20px;
+		height: 21px;
+	}
+}
+
+
+#logo{ 
+	rect{
+		fill: $brand-primary;
+	}
+	path{
+		fill: $brand-secondary;
+	}
+}
+
+#toggle rect{
+	fill: $brand-primary;
+}
+
+.project-tft{
+
+	#toggle rect {
+		fill: $white !important;
+	}
+	
+	#logo{ 
+		rect{
+			fill: $white !important;
+		}
+		path{
+			fill: $white !important;
+		}
+	}
+
+}
+
+.scrolled {
+
+	#nav-toggle{
+		svg{
+			width: 20px !important;
+			height: 15px !important;
+		}
+	}
+
+	#logo{ 
+		rect{
+			fill: $brand-primary !important;
+		}
+		path{
+			fill: $brand-secondary !important;
+		}
+	}
+
+	#toggle rect{
+		fill: $brand-primary !important;
+	}
+
+}
+
+.navHeading{
+	hr{
+		margin-bottom: 0px !important;
+	}
+}
+
+
+///////////////////////////////////////////////////////////
+// Sections
+///////////////////////////////////////////////////////////
+
+// My Approach Page
+
+// Chart / Graphic / Graphic Sections background color
+.bg-graph-wrap{
+	background-color: #c6d1df;
+	background-image: -webkit-linear-gradient(45deg, #c6d1df 0%, #abb3c4 100%);
+	background-image: -moz-linear-gradient(45deg, #c6d1df 0%, #abb3c4 100%);
+	background-image: -o-linear-gradient(45deg, #c6d1df 0%, #abb3c4 100%);
+	background-image: linear-gradient(45deg, #c6d1df 0%, #abb3c4 100%);
+}
+
+.bg-graph{
+	background-color: #062d4c;
+	box-shadow: $el-8; 
+}
+
+
+#approach{
+	.summary{
+		background: $light-blue-grey;
+		margin-bottom: -150px;
+		//box-shadow: 0px 30px 30px -22px rgba(2,16,33,0.3);
+	}
+}
+
+
+
+// Theatre Francais Project Page
+
+.project-tft{
+	#app{
+		padding-top: 0px !important;
+	}
+}
+
+#tft{
+
+	.bg{
+		padding-top: 0px !important;
+		background-image: url('../img/tft-hero@1x-60.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.hero{
+		h1{
+			color: $white;
+			font-weight: $font-light;
+			font-size: 2.8em;
+		}
+		.lead{
+			color: $white;
+			font-weight: $font-light;
+			font-family: $font-family-sans-serif;
+		}
+	}
+
+	p{
+		position: relative;
+		z-index: 20
+	}
+	//
+	// Problem Section
+	//
+	.problem{
+
+		.sq-border, .sq-solid{
+			display: none;
+		}
+
+		.berkeley{
+			position: relative;
+			width: 100% !important;
+			margin-left: -0px;
+			border: 1px solid $white; 		
+		}
+
+		h4.accent{
+			text-align: left;
+		}
+	}
+
+	.over{
+		margin-bottom: -150px;
+		background-color: $light-blue-grey;
+		z-index: 1;
+	}
+	//
+	// Problem Statement Section
+	//
+	.problem-statement, .user-testimonial{
+		position: relative;
+		.grad-guide{
+			width: 1px;
+			display: none;
+			position: absolute;
+			z-index: 1;
+			background-color: #27dffd;
+			background-image: -webkit-linear-gradient(0deg, #27dffd 0%, #2982ef 100%);
+			background-image: -moz-linear-gradient(0deg, #27dffd 0%, #2982ef 100%);
+			background-image: -o-linear-gradient(0deg, #27dffd 0%, #2982ef 100%);
+			background-image: linear-gradient(0deg, #27dffd 0%, #2982ef 100%);
+
+		}
+	}
+
+	h1.display-4{
+		color: $brand-primary;
+		font-size: 32px;
+	}
+
+	//
+	// Team Section
+	//
+	.team{
+		figure {
+			display: inherit;
+			img{
+				width: 110px;
+				position: relative;
+				z-index: 2;
+				border: 1px solid $white;
+				box-shadow: $el-7;
+			}
+			figcaption{
+				color: $light-blue-grey;
+				margin-top: -50px;
+				letter-spacing: .05em;
+				position: relative;
+				z-index: 3;
+
+			}
+		}
+		.sq-border-1{
+			width: 50%;
+			height: 50%;
+			margin: auto;
+			position: absolute;
+			top: 190px; left: 0; bottom: 0; right: 0;
+			padding: 90px !important;
+			z-index: 1;
+		}
+		.sq-solid-1{
+			display: none;
+			width: 50%;
+			height: 50%;
+			margin: auto;
+			position: absolute;
+
+		}
+		.sq-border-2{
+			display: none;
+			margin: auto;
+			position: absolute;
+			padding: 90px !important;
+			z-index: 1;
+		}
+		.sq-solid-2{
+			display: none;
+			margin: auto;
+			position: absolute;
+
+		}
+	}
+	//
+	// Budgets Section
+	//
+	.budgets{
+		.map{
+
+		}
+		.pie{
+			//max-width: 370px;
+		}
+		.sq-solid{
+			display: none;
+			position: absolute;
+		}
+		.sq-border{
+			display: none;
+			position: absolute;
+		}
+		figure{
+			figcaption{
+				font-size: 10px;
+			}
+		}
+		.over{
+			margin-bottom: -80px;
+		}
+	}
+	.personas{
+		.carousel-control-next{
+			right: -50px;
+			.carousel-control-next-icon{
+				width: 40px;
+				height: 40px;
+				background-image: url('../img/arrows-right.svg')
+			}
+		}
+		.carousel-control-prev{
+			left: -50px;
+			.carousel-control-prev-icon{
+				width: 40px;
+				height: 40px;
+				background-image: url('../img/arrows-left.svg')
+			}
+		}
+	}
+}
+
+
+///////////////////////////////////////////////////////////
+// Breakpoints
+///////////////////////////////////////////////////////////
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+	#tft{
+		.team{
+			.sq-border-1{
+				top: 220px; left: 0; bottom: 0; right: 0;
+			}
+		}
+		h1.display-4{
+			font-size: 36px;
+		}
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+	#tft{
+		.problem-statement{
+			.grad-guide{
+				display: block;
+				height: 290px;
+				left: 60px;
+				top: -20px;
+			}
+			.display-4{
+				margin-left: 0px !important;
+			}
+		}
+		.team{
+			.sq-border-1{
+				left: 20px;
+				top: -400px;
+			}
+			.sq-solid-1{
+				display: block;
+				padding: 160px 180px!important;
+				left: -320px;
+				top: 50px;
+			}
+			.nathaniel{
+				position: absolute;
+				top: -50px;
+				left: -10px;
+				z-index: 2;
+			}
+			.chloe{
+				position: absolute;
+				top: -200px;
+				left: 20px;
+				z-index: 2;
+			}
+			.sq-border-2{
+				display: block;
+				left: 20px;
+				top: 10px;
+			}
+			.sq-solid-2{
+
+			}
+			.xavier{
+				position: absolute;
+				top: -20px;
+				left: -10px;
+				z-index: 2;
+			}
+			.sylvain{
+				position: absolute;
+				top: 120px;
+				z-index: 2;
+			}
+		}
+		h1.display-4{
+			font-size: 38px;
+		}
+		.user-testimonial{
+			.grad-guide{
+				display: block;
+				height: 360px;
+				left: 15px;
+				top: -150px;
+			}
+		}
+		.personas{
+			.over.motivations{
+				margin-top: -120px;
+			}
+			.carousel-control-next{
+				right: -70px;
+			}
+			.carousel-control-prev{
+				left: -70px;
+			}
+		}
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+	#tft{
+		.problem{
+			.sq-border, .sq-solid{
+				display: block;
+			}
+
+			.sq-solid{
+				background-color: $middle-blue-grey;
+				top: -40px;
+				left: 130px;
+				position: absolute;
+				z-index: 2;
+			}
+
+			.sq-border{
+				bottom: -50px;
+				left: 240px;
+				position: absolute;
+				z-index: 3;
+			}
+			.over{
+				z-index: 1;
+				margin-bottom: -200px
+			}
+			.berkeley{
+				z-index: 4;
+				position: absolute;
+				left: 10px;
+				width: 90% !important;
+			}
+
+			h4.accent{
+				float: right;
+				text-align: right;
+			}
+		}
+		.team{
+			.sq-border-1{
+				top: -360px;
+			}
+			.sq-solid-1{
+				top: 30px;
+				left: -400px;
+				padding: 160px 240px!important;
+			}
+			.nathaniel{
+				left: 10px;
+				top: -90px
+			}
+			.sq-border-2{
+				left: 70px;
+				top: 20px;
+			}
+			.xavier{
+				top: -10px;
+				left: 20px;
+			}
+		}
+		.budgets{
+			.map{
+				height: 270px;
+				figure{
+					width: 420px;
+					height: 270px;
+					top: 40px;
+					position: absolute;
+					z-index: 2;
+				}
+			}
+			.pie{
+				height: 270px;
+				figure{
+					width: 340px;
+					height: 270px;
+					position: absolute;
+					top: -190px;
+					left: 90px;
+					z-index: 2;
+				}
+			}
+			.sq-border{
+				left: 260px;
+				top: 180px;
+				display: block;
+				z-index: 1
+			}
+			.sq-solid{
+				left: -140px;
+				top: -150px;
+				padding-right: 170px !important;
+				padding-bottom: 100px !important;
+				display: block;
+			}
+			.order-3{
+				padding: 0 30px 0px 30px;
+			}
+			.over{
+				padding: 0 30px 10px 30px;
+				margin-bottom: -100px;
+			}
+			h4.accent{
+				float: right;
+				text-align: right;
+			}
+		}
+		.user-testimonial{
+			.grad-guide{
+				top: -260px;
+				height: 440px;
+			}
+		}
+		.personas{
+			.over.motivations{
+				margin-top: -130px;
+			}
+			.carousel-control-next{
+				right: -70px;
+			}
+			.carousel-control-prev{
+				left: -70px;
+			}
+		}
+	}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+	#tft{
+		.problem{
+
+			.sq-solid{
+				top: -40px;
+				left: 230px;
+			}
+
+			.sq-border{
+				bottom: -140px;
+				left: 330px;
+			}
+			.berkeley{
+				left: 10px;
+				width: 87% !important;
+			}
+		}
+		.problem-statement{
+			.grad-guide{
+				left: 80px;
+			}
+		}
+		.team{
+			.sq-border-1{
+				top: -320px;
+			}
+			.chloe{
+				left: 50px;
+				top: -220px;
+			}
+			.nathaniel{
+				left: 40px;
+				top: -90px
+			}
+			.sq-border-2{
+				left: 120px;
+				top: 20px;
+			}
+			.sq-solid-1{
+				top: 30px;
+				left: -490px;
+				padding: 140px 280px!important;
+			}
+			.xavier{
+				left: 40px;
+			}
+			.sylvain{
+				left: 40px;
+			}
+		}
+		.budgets{
+			.map{
+				height: 250px;
+				figure{
+					width: 470px;
+					height: 320px;
+					top: 40px;
+					left: 80px;
+					position: absolute;
+					z-index: 2;
+				}
+			}
+			.pie{
+				height: 270px;
+				figure{
+					width: 370px;
+					height: 300px;
+					position: absolute;
+					top: -170px;
+					left: 130px;
+					z-index: 2;
+				}
+			}
+			.over{
+				padding: 0 25px 10px 30px;
+				margin-bottom: -150px;
+			}
+			.sq-border{
+				left: 380px;
+				top: 190px;
+				display: block;
+				z-index: 1
+			}
+			.sq-solid{
+				left: -100px;
+				top: -100px;
+				padding-right: 200px !important;
+				padding-bottom: 120px !important;
+				display: block;
+			}
+		}
+	}
+}
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { 
+	.bg-graph{
+		background-color: #062d4c;
+		box-shadow: $el-5;
+	}
+
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { 
+
+	.bg-graph{
+		background-color: #062d4c;
+		box-shadow: $el-5;
+	}
+
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { 
+	// #tft{
+	// 	.problem{
+	// 		.sq-border, .sq-solid{
+	// 			display: none;
+	// 		}
+	// 		.berkeley{
+	// 			position: inherit;
+	// 			width: 100% !important;
+	// 			margin-left: -30px;
+
+	// 		}
+	// 	}
+	// }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) { 
+	// #tft{
+	// 	.problem{
+	// 		.sq-border{
+	// 			left: 230px;
+	// 			bottom: -130px;
+	// 		}
+	// 		.sq-solid{
+	// 			left: 130px;
+	// 		}
+	// 	}
+	// }
+}

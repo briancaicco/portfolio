@@ -1,0 +1,16 @@
+<div id="home" class="fast animated fadeIn">
+	<section class="mt-2 mt-md-5 mt-lg-7">
+
+		<div class="container">
+			<div class="small mb-4 ">
+				<b>Brian Caicco</b> – Product &amp; UX Designer
+			</div> 
+			<h1 class="fw-light mb-4 mb-sm-5 mb-lg-6 delay animated fadeInLeft">
+				The best solutions are found <br/>
+				in the biggest problems.
+			</h1>
+			<a class="small " href="#/approach/"><b>Checkout my approach</b></a>
+		</div>
+
+	</section>
+</div>

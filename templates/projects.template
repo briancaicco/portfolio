@@ -1,0 +1,77 @@
+<div id="projects" class="fast animated fadeIn">
+	<section class="py-sm-3">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-sm-12 col-md-8 pl-sm-4 ">
+					<h1>Select Projects</h1>
+					<p class="lead fw-light"> It's the Turducken of creative problem solving.</p>
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col-sm-12 col-md-8 summary py-3 px-sm-4 ">
+					<p>The Phased-based design process isn’t a closed loop. It makes the assumption that the process is flawless and therefore only produces flawless results as a final output. It’s waterfall structure leaves it vaulnerable to bottle necks and roadblocks as each phase is completly dependant on the prior phase.</p>
+					<p>The Phased-based design process isn’t a closed loop. It makes the assumption that the process is flawless and therefore only produces flawless results as a final output. It’s waterfall structure leaves it vaulnerable to bottle necks and roadblocks as each phase is completly dependant on the prior phase.</p>
+					<p>The Phased-based design process isn’t a closed loop. It makes the assumption that the process is flawless and therefore only produces flawless results as a final output. It’s waterfall structure leaves it vaulnerable to bottle necks and roadblocks as each phase is completly dependant on the prior phase.</p>
+					<p>The Phased-based design process isn’t a closed loop. It makes the assumption that the process is flawless and therefore only produces flawless results as a final output. It’s waterfall structure leaves it vaulnerable to bottle necks and roadblocks as each phase is completly dependant on the prior phase.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="pt-10 pb-6 bg-white">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-8">
+					<small class="up primary"><b>WaterFall</b></small>
+					<h4 class="accent mt-3">Phase Based Approach</h4>
+					<p>The Phased-based design process isn’t a closed loop. It makes the assumption that the process is flawless and therefore only produces flawless results as a final output. It’s waterfall structure leaves it vaulnerable to bottle necks and roadblocks as each phase is completly dependant on the prior phase.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="p-0 p-md-5 bg-graph-wrap">
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 bg-graph el-4 p-3 p-md-3 p-lg-4">
+			<img src="/img/approach-waterfall.svg">
+			</div>
+		</div>
+	</section>
+	<section class="py-5 bg-white">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-8">
+					<small class="up primary"><b>Agile</b></small>
+					<h4 class="accent mt-3">Activity Based Approach</h4>
+					<p>The activity based approach is a continous system, It creates a closed loop during the requirements resolution allowing for greater exploration into problem resolution but like the phased based approach it makes the assumption that it’s only able to produce flawless results as a final output.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="p-0 p-md-5 bg-graph-wrap">
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 bg-graph el-4 p-3 p-md-3 p-lg-4">
+			<img src="/img/approach-agile.svg">
+			</div>
+		</div>
+	</section>
+	<section class="py-5 bg-white">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-8">
+					<small class="up primary"><b>Waterfall + Agile</b></small>
+					<h4 class="accent mt-3">Infinity Approach</h4>
+					<p>The infinity approach assumes that a flawless solution is impossible. Unlike the phased & activity approaches It’s structure is appended to recyle all output back through the problem identifcation process. This approach ensures that a designers work is never complete, and the creation of a better solution is infinitly possible.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="p-0 p-md-5 bg-graph-wrap">
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 bg-graph el-4 p-3 p-md-3 p-lg-4">
+			<img src="/img/approach-infinity.svg">
+			</div>
+		</div>
+	</section>
+</section>

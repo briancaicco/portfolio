@@ -1,0 +1,378 @@
+<div id="tft" class="fast animated fadeIn">
+	<!-- Hero Banner -->
+	<section class="hero bg">
+		<div class="container d-flex justify-content-center">
+			<div class="pt-md-6 pt-sm-2 flex-column">
+				<div class="py-6 text-center">
+					<h1 class="display-4">From Viewers To Participants</h1>
+					<p class="lead">
+						Leveraging web &amp; mobile technology to stimulate engagement &amp;<br/>
+						modernize Théatre Francais's customer experience.
+					</p>
+				</div>
+				<div class="mb-4 text-center">
+					<img src="../img/tft-logo.svg" width="150px">
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!-- Problem Definition -->
+	<section class="pt-5 pt-lg-8 pb-0 pb-xl-4 problem">
+		<div class="container">
+			<div class="row d-flex flex-row-reverse">
+
+				<div class="pb-3 pb-lg-0 px-3 px-xl-3 col-sm-12 col-md-12 col-lg-6 order-sm-1 order-md-1 ">
+					<h4 class="accent mb-4">Defining The Problem</h4>
+					<div class="clearfix"></div>
+					<p>For thousands of years ‘entertainment’ has been delivered on stages and in theatres. In under 
+						One Hundred years entertainment has leaped from the stage to the screen. 
+					</p>
+
+					<p>We carry it with us everywhere. In our pockets, bags purses; accessible wherever and whenever we desire.
+						Although the convenience of entertainment via technology had it’s drawbacks it also had it’s opportunities.
+					</p>
+				</div>
+
+				<div class="pb-4 col-sm-12 col-md-12 col-lg-6 order-sm-2 order-md-2 ">
+					<img class="berkeley el-8" src="../img/tft-berkeley@2x-100.jpg">
+					<div class="sq-solid py-8 px-9"></div>
+					<div class="sq-border p-6"></div>
+				</div>
+
+				<div class="over pt-4 pb-2 px-3 px-xl-3 col-sm-12 col-md-12 col-lg-6 order-sm-3 order-md-3">
+					<p>
+						For the first time in history, the internet was empowering audiences to go beyond being passive viewers and allowing them to interact and engage with what they were witnessing.
+					</p>
+
+					<p>
+						As a mecca of french Canadian culture in Toronto for the past 50 years, Theatre Francis de Toronto (TFT) wasn’t going to let this opportunity pass.
+					</p>
+
+					<p>
+						In 2012 Theatre Francais de Toronto was seeking help to re-think their online pres- ence and identify opportunities to interact and engage with their audience via technology.
+					</p>
+				</div>
+
+			</div>
+		</div>"
+	</section>
+	<!-- Problem Statement -->
+	<section class="pt-10 pb-6 bg-white problem-statement">
+		<div class="container">
+			<div class="row justify-content-md-left">
+				<div class="col-1">
+					<span class="grad-guide"></span>
+				</div>
+				<div class="col-11">
+					<h1 class="ml-1 display-4 font-weight-thin">How can we use technology to <br/> better engage with our audience?</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Project Team --> 
+	<section class="pt-5 pt-lg-5 pb-0 pb-xl-4 team">
+		<div class="container">
+			<div class="row mb-sm-4">
+				<div class="col-12 col-md-8">
+					<h4 class="accent mb-4">A Band of Rockstars</h4>
+					<p>
+						My team was composed of a rockstar full stack developer (Nathaniel Schweinberg ) an uber talented UI designer Sylvain Lafitteand a bilingual content strategist Xavier Massé. I handled User Experience Strategy/Research/Design and project management.
+					</p>
+					<p>
+						I took point gathering as much data as I couldn’t on TFT’s existing audience. From veteran seasons ticket holders, to students attending their first performance and everyone in between.
+					</p>
+				</div>
+				<div class="col-12 col-md-4 mt-3 mb-2">
+					<div class="sq-solid-1 py-8 px-9"></div>
+					<div class="sq-border-1 p-6"></div>
+					<div class="row">
+						<div class="col-6 col-md-6 mb-2">
+							<figure class="nathaniel figure text-center">
+								<img class="figure-img el-10" src="../img/nathaniel.jpg" alt="Portrait of Nathaniel">
+								<figcaption class="figure-caption font-weight-bold lead">Nathaniel</figcaption>
+							</figure>
+						</div>
+
+						<div class="col-6 col-md-6">
+							<figure class="chloe figure text-center">
+								<img class="figure-img el-10" src="../img/chloe.jpg" alt="Portrait of Cholé">
+								<figcaption class="figure-caption font-weight-bold lead">Cholé</figcaption>
+							</figure>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-4 mb-4">
+					<div class="sq-solid-2 py-8 px-9"></div>
+					<div class="sq-border-2 p-6"></div>
+					<div class="row ">
+						<div class="col-6 col-md-6 mb-2">
+							<figure class="xavier figure text-center">
+								<img class="figure-img el-10" src="../img/xavier.jpg" alt="Portrait of Xavier">
+								<figcaption class="figure-caption font-weight-bold lead">Xavier</figcaption>
+							</figure>
+						</div>
+						<div class="col-6 col-md-6">
+							<figure class="sylvain figure text-center">
+								<img class=" figure-img el-10" src="../img/sylvain.jpg" alt="Portrait of Sylvain">
+								<figcaption class="figure-caption font-weight-bold lead">Sylvain</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-8">
+					<p>
+						To meet budget constraints I requested the help of TFT’s marketing manager Chloé Coves. I provided her with some reading material on interviewing and gave her a crash course on persona creation.
+					</p>
+					<p>
+						I hypothesized their audience was mostly aged 55+ but I wanted to confirm...
+					</p>
+					<p>
+						If they were catering to an older audience I wanted to know if this audience was using the website to purchase tickets.
+					</p>
+					<p>
+						Cholé dug up some surveys completed earlier in the year and started to review the results for trends or common themes. Although it was great to have qualitative feedback on attending a performance and using the website it couldn’t answer my hypothesis.
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- Budgets are the suck --> 
+	<section class="pt-4 pt-lg-3 pb-0 pb-xl-4 budgets">
+		<div class="container">
+			<div class="row d-flex flex-row-lg">
+
+				<!-- <div class="d-lg-flex flex-row-lg-reverse"> -->
+
+				<!-- xs - md 1st position || lg - xl 2nd position-->
+				<div class="col-lg-6 order-1 order-lg-2">
+					<h4 class="accent mb-3">Budgets Suck</h4>
+					<div class="clearfix"></div>
+					<p>
+						One challenge (not always a bad one) of working with Not-For-Profit groups are the budget constraints. Due to these constraints I was never able to verify my hypothesis, had the resources been available here’s what I’d planned to do
+					</p>
+				</div>
+
+				<!-- xs - md 3rd position || lg - xl 1st position -->
+				<div class="map col-lg-6 order-2 order-lg-1 mb-lg-6" >
+					<figure class=" mb-3">
+						<img class="figure-img img-fluid el-7" src="../img/map.jpg" alt="Roncesvalles Toronto">
+						<figcaption class="figure-caption">Map data &copy;2017 Google</figcaption>
+					</figure>
+					<div class="sq-border p-6"></div>
+				</div>
+
+
+				<!-- xs - md 2nd position || lg - xl 3rd position -->
+				<div class="pie col-lg-6 order-4 order-lg-4">
+					<figure class=" figure mb-3 ">
+						<img class="figure-img img-fluid el-7" src="../img/pie-chart.jpg" alt="Roncesvalles Age Demographic">
+						<figcaption class="figure-caption">Chart data &copy;2017 The Canadian Real Estate Association</figcaption>
+					</figure>
+					<div class="sq-solid py-8 px-9"></div> 
+				</div>
+				<!-- </div> -->
+
+				<!-- <div class="d-lg-flex align-items-lg-start flex-lg-column"> -->
+
+				<!-- xs - md 4th position || lg - xl -->
+				<div class="col-lg-6 order-3 order-lg-3 align-self-lg-end">
+					<p>
+						Although TFT didn’t record the ages of the people attending their performances they did have addresses for many previous attendees they also record the mailing addresses of anyone purchasing tickets via the website.
+					</p>
+					<p>
+						I would format this data into geocodes and plot them on a Google Map to identify trends in the location of their audience.
+					</p>
+				</div>
+
+				<!-- xs - md 5th position || lg - xl -->
+				<div class="over col-lg-6 order-4 order-lg-5">
+					<p>
+						I would then cross-reference the locations with demographic data provided by the Ontario Real Estate Association ( reliable/frequently updated data set.) to identify any statistically relevant age based trends. 
+					</p>
+					<p>
+						Although this method wouldn’t produce crystal clear results, the results would be enough to validate my hypothesis and could also provide insight into untapped offline marketing opportunities.
+					</p>
+				</div>
+
+				<!-- </div> -->
+			</div>		
+		</div>
+	</section>
+	<!-- User Testimonial -->
+	<section class="pt-7 pt-md-9 pb-6 bg-white user-testimonial">
+		<div class="container">
+			<div class="row">
+				<div class="col-11">
+					<h1 class="ml-1 display-4 text-right font-weight-thin">”I want to get more involved with theatre I had to search Google to find french improve workshops, the TFT has them but it was not so easy to find.”</h1>
+				</div>
+				<div class="col-1">
+					<span class="grad-guide"></span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Personas --> 
+	<section class="py-5 personas">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-12 col-lg-8">
+					<h4 class="accent mt-3">Getting Acquainted</h4>
+					<p>Chloé kicked some serious butt on gathering the required information to create our persona’s. After reviewing the information she was able to collect we identified four key motivators and established four unique persona’s.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Persona Graphic -->
+	<section class="p-0 p-md-5 bg-graph-wrap personas">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 bg-graph p-3 p-md-3 p-lg-4">
+					<img class="lazy" class="lazy" src="/img/personas.svg">
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!-- Personas continued -->
+	<section class="pt-5 pt-lg-5 pb-0 pb-xl-4 personas">
+		<div class="container">
+			<div class="row mb-sm-4 justify-content-center">
+				<div class="over motivations col-12 col-lg-8 px-3 pt-4">
+					<div id="carouselExampleControls" class="carousel slide mx-lg-4" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<blockquote class="blockquote text-center">
+									<p class="mb-0">“I am interested theatre courses. But there’s no signup information. There’s a form at the bottom of the page, I fill it, and I wait for an answer... maybe”</p>
+									<footer class="blockquote-footer">Favours the DIY approach. <cite title="Source Title">Mother</cite></footer>
+								</blockquote>
+							</div>
+							<div class="carousel-item">
+
+								<blockquote class="blockquote text-center">
+									<p class="mb-0">”I want to get more involved with theatre I had to search Google to find french improve workshops, the TFT has them but it was not so easy to find.”</p>
+									<footer class="blockquote-footer">Experiences life through exploration &amp; knowledge. <cite title="Source Title">Teenager</cite></footer>
+								</blockquote>
+							</div>
+							<div class="carousel-item">
+								<blockquote class="blockquote text-center">
+									<p class="mb-0">“I find a play “les Zinspirés”, but there’s no information about age, so I don’t know if it is appropriate for my class.”</p>
+									<footer class="blockquote-footer">Excited by sharing her passions with others. <cite title="Source Title">Teacher</cite></footer>
+								</blockquote>
+
+							</div>
+							<div class="carousel-item">
+								<blockquote class="blockquote text-center">
+									<p class="mb-0">“In Toronto, francophones are minority... most websites are only english, It takes me some time to research local activities.”</p>
+									<footer class="blockquote-footer">Content in EN/FR is required. <cite title="Source Title">New Comer</cite></footer>
+								</blockquote> 
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+					<div class="my-4">
+						<p>
+							One stakeholder that isn’t represented in the list above are the content creators. We also knew that the administration at TFT played a critical role in the development of our solution.
+						</p>
+						<p>
+							Their input on the functions/features of the new website would be critical to de- signing a solution that would be easily maintained and support the TFT’s mission.
+						</p>
+						<p>
+							TFT administration allowed Chloé to split her time and work with us. They also as- signed an intern to working with us who was essential in bug testing.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Content -->
+	<section class="py-5 personas">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-12 col-lg-8">
+					<h4 class="accent mt-3">Content is... Not King?</h4>
+					<p>I wanted to write something witty here about content being king or something to that effect but after 10 minutes of drawing blanks I’ll just tell it like was.</p>
+					<p>Their information architecture looked like it had been designed for Jim Henson’s film ‘The Labyrinth’. Every menu item seemed to lead everywhere and nowhere at the same time.</p>
+					<p>I was thankful to be working with Xavier, few people would have had the patience he did to go through each page of the website in French and English and do a thor- ough content audit.</p>
+					<p>While Xavier revised the content I designed the critical task flows, and created fric- tionless pathways that simultaneously alleviated the pain of the users and met the goals of TFT’s business objectives.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Resolve -->
+	<section class="py-5 personas">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-12 col-lg-8">
+					<h4 class="accent mt-3">Going Responsive</h4>
+					<p>At the time, there was no industry accepted standard for developing mobile websites. We took time and carefully evaluated various approaches.</p>
+					<p>We knew our budget wouldn’t allow us to build a separate website exclusively for mobile device and Nathaniel was confident in his ability code whatever we came up.</p>
+					<p>After a few hours of Googling “Responsive web design” for inspirations and drool- ing over sexy UI’s with Sylvain we were both eager to dive into designing for the multi- ple screen universe.</p>
+					<p>One unanticipated bonus of going responsive we could easily detect the native language of the browser and deliver the website in the preferred language of the vis- iter (english or french).</p>
+					<p>Chalk one up for team awesome. We hadn’t even put pen to paper and we were already crossing off of stakeholder pain points.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Agile -->
+	<section class="py-5 personas">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-12 col-lg-8">
+					<h4 class="accent mt-3">Flat Is Beautiful</h4>
+					<p>In 2012 flat design was all the rage and Microsoft’s Metro Design language was king. We took inspiration from the colourful and minimal style of Metro design and created an interface that was scalable, modular and more importantly fluid.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Learn -->
+	<section class="py-5 personas">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-12 col-lg-8">
+					<h4 class="accent mt-3">Learn</h4>
+					<p>We were able to mitigate any issues or bugs that would cripple us on deploying the site to the broader public by releasing features as they were coming off the product line onto a staging server.</p>
+					<p>The administration at TFT were along with many of the actors, and select stake- holders used the staging</p>
+					<p>Both TFT and our team were pleased by the results, There was a staggering drop in bounce rate, online ticket purchases had seen an increase and the office phone seemed to be ringing less.</p>
+					<p>Attendees were encouraged to leave a rating and a review on TFT’s website after performances and TFT’s administration was please to gain so much additional feed- back on their performances.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Learn -->
+	<section class="py-5 personas">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-12 col-lg-8">
+				<h4 class="accent mt-3"></h4>
+					<p><b>The first solution doesn’t always solve the whole problem...</b></p>
+					<p>We discovered that by creating a mobile responsive website TFT now had an opportu- nity to engage with it’s audience in a way it never could before... In Real Time.</p>
+					<p>To create deeper engagement we took our research and findings back to the drawing board and came up with a solution that would allow the entire audience to join the production back stage.</p>
+					<p>Having a design language, and a stable well built website we were able to create a “Back Stage” portal on the website where the cast and crew posted updates , photos and videos of their preparation in real -time via their smartphones.</p>
+					<p>As the popularity of the backstage grew we created additional features that al- lowed the cast and crew to do live Q & A sessions. We used YouTube live for the videos and embedded disqus comments below the video for realtime chat.</p>
+					<p>To exceed the expectations of it’s audience we needed to turn TFT’s website into a window... a window that would allow the whole community to experience the tremen- dous amount of preparation, dedication and talent that goes into performing such memorable theatrical displays.</p>
+					<p>Was it even possible? What would it look it? How would it function?</p>					
+				</div>
+			</div>
+		</div>
+	</section>	
+</div>
+
+
+
+
+
+

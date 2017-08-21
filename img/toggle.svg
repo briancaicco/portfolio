@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14.86">
+<g id="toggle">
+	<rect class="nav-toggle-bar" width="20" height="2"/>
+	<rect class="nav-toggle-bar" y="6.43" width="20" height="2"/>
+	<rect class="nav-toggle-bar" y="12.86" width="20" height="2"/>
+</g>
+</svg>

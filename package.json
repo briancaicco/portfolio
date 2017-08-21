@@ -1,0 +1,19 @@
+{
+  "name": "13_bc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "bootstrap-material-design": "^0.5.10",
+    "jquery-pjax": "^2.0.1",
+    "understrap": "^0.6.5",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
