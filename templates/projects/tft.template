@@ -231,7 +231,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-12 bg-graph p-3 p-md-3 p-lg-4">
-					<img class="lazy" class="lazy" src="/img/personas.svg">
+					<img class="lazy" class="lazy" src="../img/personas.svg">
 				</div>
 			</div>
 		</div>	
@@ -318,7 +318,7 @@
 					<h4 class="accent mt-3">Going Responsive</h4>
 					<p>At the time, there was no industry accepted standard for developing mobile websites. We took time and carefully evaluated various approaches.</p>
 					<p>We knew our budget wouldn’t allow us to build a separate website exclusively for mobile device and Nathaniel was confident in his ability code whatever we came up.</p>
-					<p>After a few hours of Googling “Responsive web design” for inspirations and drool- ing over sexy UI’s with Sylvain we were both eager to dive into designing for the multi- ple screen universe.</p>
+					<p>After a few hours of Googling “Responsive web design” for inspirations and drooling over sexy UI’s with Sylvain we were both eager to dive into designing for the multi- ple screen universe.</p>
 					<p>One unanticipated bonus of going responsive we could easily detect the native language of the browser and deliver the website in the preferred language of the vis- iter (english or french).</p>
 					<p>Chalk one up for team awesome. We hadn’t even put pen to paper and we were already crossing off of stakeholder pain points.</p>
 				</div>
